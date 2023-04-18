@@ -1,16 +1,19 @@
 {
   "name": "futureacademy",
+  "homepage": "https://gorbachev777.github.io/futureacademy/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "parcel-bundler": "^1.12.4"
   }
 }

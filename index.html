@@ -1,13 +1,583 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>привет
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="./img/logo.svg" type="image/">
+  <title>Образовательная платформа ХОД Future Academy</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<div class="main">
+  <header>
+    <div class="buttons">
+      <div class="logo">
+        <img src="./img/logo.svg" alt="logo"/>
+      </div>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="./img/equals.svg" class="equalsImg" alt="equals"/>
+          <span class="course">Все курсы</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Робототехника</a></li>
+          <li><a class="dropdown-item" href="#">Создание игр</a></li>
+          <li><a class="dropdown-item" href="#">Web-разработка</a></li>
+          <li><a class="dropdown-item" href="#">Мультимедиа</a></li>
+          <li><a class="dropdown-item" href="#">Шахматы</a></li>
+          <li><a class="dropdown-item" href="#">3D-моделирование и дизайн</a></li>
+          <li><a class="dropdown-item" href="#">Английский язык</a></li>
+          <li><a class="dropdown-item" href="#">Блогинг</a></li>
+          <li><a class="dropdown-item" href="#">Soft skills</a></li>
+        </ul>
+      </div>
+      <button>Мероприятия</button>
+      <button>Базы знаний</button>
+      <button>Карьера</button>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="./img/point.svg" class="point" alt="point"/>
+          <span class="country">Нижний Новгород</span>
+          <img src="./img/Vector20.svg" alt="" class="vector20"/>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Москва</a></li>
+          <li><a class="dropdown-item" href="#">Санкт-Петербург</a></li>
+          <li><a class="dropdown-item" href="#">Краснодар</a></li>
+          <li><a class="dropdown-item" href="#">Брянск</a></li>
+        </ul>
+      </div>
+      <div class="phone">8 800 950-33-98</div>
+      <button><img src="./img/person.svg" class="personImg" alt="person"/>Войти</button>
+    </div>
+    <div class="mobile_menu">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Все курсы</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="content-1">
+      <img src="./img/Vector_1.png" class="vector_1Image" alt="vector1"/>
+      <img src="./img/Vector_2.png" class="vector_2Image" alt="vector2"/>
+      <h1>Образовательная платформа</h1><br>
+      <span class="title_content_1">ХОД Future Academy</span><br>
+      <span class="title_content_2">Актуальные знания для новичков и профессионалов</span>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="content-2">
+      <div class="toggler">
+        <img src="./img/union.png" class="union_Image" alt="union">
+        <img src="./img/owl.svg" class="owl_Image" alt="owl">
+        <div>
+          <div class="toggler_buttons">
+            <button class="only-top border-gradient-green border-gradient">
+              <div class="hr"></div>
+              <img src="./img/kids.svg" alt="kids">
+              <div class="toggler_text">Дети <p>8 — 14 лет</p>
+              </div>
+            </button>
+            <button style="bottom: -4px" class="only-top border-gradient-green border-gradient">
+              <div style="position: relative; top: -4px; display: flex;">
+                <img src="./img/children.svg" alt="children">
+                <div class="toggler_text">Подростки
+                  <p>14 — 18 лет</p>
+                </div>
+              </div>
+            </button>
+            <button style="bottom: -4px" class="only-top border-gradient-green border-gradient">
+              <div style="position: relative; top: -4px; display: flex;">
+                <img src="./img/parents.svg" alt="parents">
+                <div class="toggler_text">Взрослые
+                  <p>18 — <span class="infinity">∞</span></p>
+                </div>
+              </div>
+            </button>
+          </div>
+          <div class="category_buttons">
+            <button>Робототехника</button>
+            <button>Создание игр</button>
+            <button>Web-разработка</button>
+            <button>Мультимедиа</button>
+            <button>Шахматы</button>
+            <button>3D-моделирование и дизайн</button>
+            <button>Английский язык</button>
+            <button>Блогинг</button>
+            <button>Soft skills</button>
+          </div>
+        </div>
+      </div>
+      <div class="youtube_block">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+        </iframe>
+        <img src="./img/vector_block.png" class="vector_block_Image" alt="vector_block">
+        <img src="./img/vector_block2.png" class="vector_block_Image2" alt="vector_block">
+        <img src="./img/vector_block3.png" class="vector_block_Image3" alt="vector_block">
+        <img src="./img/vector_block4.png" class="vector_block_Image4" alt="vector_block">
+      </div>
+      <div class="content2_text">Актуальные знания от признанных экспертов рынка<br>
+        для новичков и практикующих специалистов.
+        <div class="counter">
+          <div class="counter_firstElem"><img src="./img/600.png" alt="600"> <br>Курсов</div>
+          <div class="counter_secondElem"><img src="./img/82.png" alt="82"> <br>Ведущих преподавателей</div>
+          <div class="counter_thirdElem"><img src="./img/14795.png" alt="14795"> <br>Выпускников</div>
+        </div>
+
+      </div>
+      <div class="dayOpenDoors">
+        <div class="november_25">
+          <div class="date">25
+            <div class="november">ноября</div>
+          </div>
+          <div class="doors">День открытых дверей
+            <div class="welcome">Приглашаем всех желающих на бесплатную экскурсию
+              в мир востребованных профессий и полезных навыков
+            </div>
+          </div>
+          <button>Записаться <img src="./img/vector_november.svg"></button>
+        </div>
+        <div class="information_IT">
+          <div class="programs">
+            <img src="./img/monitor_programs.svg" alt="monitor_programs"/>
+            <div class="programs_study">Программы обучения</div>
+            <div style="text-align: center">В списке наших курсов вы сможете найти профессию и занятие по душе, изучить
+              новое и получить практические знания, которые помогут получить работу мечты.
+            </div>
+            <button>Подробнее <img src="./img/vector_november.svg" alt="vector_november"/></button>
+          </div>
+          <div>
+            <div class="news_IT">
+              <div class="news_academy">
+                <img src="./img/newspaper.svg" alt="newspaper/">
+                Новости Академии
+              </div>
+              <div class="it">
+                <img src="./img/diagramit.svg" alt="diagramit/">
+                Мир IT
+              </div>
+            </div>
+            <div class="try">
+              <div><img src="./img/tryicons.svg" alt="tryicons/"></div>
+              <div class="try_text">
+                <div class="try_2">Попробуй!</div>
+                <div>Пройдите тест и узнайте свои способности
+                  в сфере информационных технологий
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="reviews">
+      <img src="./img/Vector_1.png" class="vector_3Image" alt="vector3"/>
+      <div class="reviews_students">Отзывы наших студентов</div>
+      <div class="media-scroller snaps-inline">
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A ullam ut veniam
+              vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A sunt ullam ut
+              veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-4">
+    <div class="content-4">
+      <div class="welcome_academy">
+        Добро пожаловать в Академию будущего ХОД
+      </div>
+      <div class="xod_image">
+        <div class="xod_item">
+          <div style="height: 55px">
+            <img src="./img/xod_1.svg" alt="">
+          </div>
+          <div class="xod_text">Передовой подход<br>
+            к образовательному<br> процессу
+          </div>
+        </div>
+        <div class="xod_item">
+          <div style="height: 55px">
+            <img src="./img/xod_2.svg" alt="">
+          </div>
+          <div class="xod_text">
+            Непрерывное усовершенствование
+            и пополнение базы курсов
+          </div>
+        </div>
+        <div class="xod_item">
+          <div style="height: 55px">
+            <img style="position: relative; top: 6px;" src="./img/xod_3.svg" alt="">
+          </div>
+          <div class="xod_text">
+            Только практикующие преподаватели
+          </div>
+        </div>
+        <div class="xod_item">
+          <div style="height: 55px">
+            <img src="./img/xod_4.svg" alt="">
+          </div>
+          <div class="xod_text">
+            Сопровождение на всех этапах. От начала обучения до трудоустройства
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <div class="contacts">
+        <img src="./img/footer_logo.svg" alt="logo">
+        <div class="number">8 800 950-33-98</div>
+        <p>г. Москва, ул. Ленина, д. 50</p>
+        <p>info@hodfutureacademy.ru</p>
+        <div>
+          <img src="./img/vk.svg" alt="vk">
+          <img src="./img/instagram.svg" alt="instagram">
+          <img src="./img/facebook.svg" alt="facebook">
+          <img src="./img/youtube.svg" alt="youtube">
+          <img src="./img/telegram.svg" alt="telegram">
+        </div>
+        <p>© ХОД, Future Academy</p>
+      </div>
+      <div class="footer_title">
+        <div style="margin-bottom: 16px;">Детям</div>
+        <p>Робототехника</p>
+        <p>Создание игр</p>
+        <p>Программирование</p>
+        <p>Мультимедиа</p>
+        <p>Soft skills</p>
+        <p>Шахматы</p>
+        <p>Блогинг</p>
+        <p>Создание игр</p>
+        <p>Программирование</p>
+        <p>Мультимедиа</p>
+        <p>Soft skills</p>
+      </div>
+      <div class="footer_title" style="width: 267px;">
+        <div style="margin-bottom: 16px;">Подросткам</div>
+        <p>Web-разработка</p>
+        <p>Прикладное программирование</p>
+        <p>Графическое моделирование</p>
+        <p>Game Development</p>
+        <p>Soft skills</p>
+        <p>Разработчик мобильных приложений</p>
+        <p>Блогинг</p>
+        <p>Создание игр</p>
+        <p>Программирование</p>
+        <p>Мультимедиа</p>
+        <p>Soft skills</p>
+      </div>
+      <div class="footer_title">
+        <div style="margin-bottom: 16px;">Взрослым</div>
+        <p>Разработчик игр на Unity</p>
+        <p>Разработка ПО</p>
+        <p>Графический Дизайн</p>
+        <p>Тестировщик ПО</p>
+        <p>Интернет Маркетинг</p>
+        <p>Java-разработчик</p>
+        <p>Python–разработчик</p>
+        <p>IOS-разработчик</p>
+        <p>Программирование</p>
+      </div>
+      <div class="footer_title">
+        <div style="margin-bottom: 16px;">Информация</div>
+        <p>Об академии</p>
+        <p>Мероприятия</p>
+        <p>Новости</p>
+        <p>База знаний</p>
+        <p>Карьера</p>
+        <p>Контакты</p>
+      </div>
+      <form action="https://formspree.io/f/mzbqkqjn" method="POST"/>
+      <div class="send_information">
+        <div class="border_owl">
+          <img class="owl" src="./img/owl.png" alt="owl";>
+          <img class="owl_info" src="./img/information_owl.png" alt="";>
+        </div>
+        <div class="form">
+          <div><input class="form_name" type="text" name="name" placeholder="Ваше имя"></div>
+          <div class="form_email"><input class="form_number" type="text" name="phone" placeholder="Ваш телефон"><input class="form_number" type="email" name="email" placeholder="Ваш e-mail"></div>
+          <div class="form_post">
+          <p>Нажимая на кнопку, я соглашаюсь
+            на обработку персональных данных
+            и с правилами пользования<br> Платформой</p>
+          <button type="submit">Отправить</button>
+          </div>
+        </div>
+      </div>
+      </form>
+    </div>
+  </footer>
+
+</div>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
