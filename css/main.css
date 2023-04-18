@@ -1119,8 +1119,61 @@ footer > div {
   .toggler_buttons img {
     width: 35px;
     height: 35px;
+    margin-top: 24px;
+  }
+  .hr {
+    width: 670px;
+  }
+  .content-1 {
+    width: 950px;
+  }
+  h1 {
+    margin-left: 0;
+  }
+  .content-2 {
+    width: 950px;
+  }
+  .content-3 {
+    width: 950px;
+  }
+  .content-4 {
+    width: 950px;
+  }
+  .toggler_buttons {
+    width: 650px;
+  }
+  .category_buttons button {
+    padding: 0 10px;
+    margin: 0 10px 10px 0;
+  }
+  .vector_block_Image {
+    zoom: 60%;
+    bottom: 14px;
+    left: 98px;
+  }
+
+  .vector_block_Image2 {
+    zoom: 60%;
+    bottom: 146px;
+    left: 1091px;
+  }
+
+  .vector_block_Image3 {
+    zoom: 60%;
+    bottom: 385px;
+    left: 291px;
+  }
+
+  .vector_block_Image4 {
+    zoom: 60%;
+    bottom: -154px;
+    right: 227px;
+  }
+  .youtube_video {
+    zoom: 80%;
   }
 }
+
 
 @media (max-width: 480px) {
 
